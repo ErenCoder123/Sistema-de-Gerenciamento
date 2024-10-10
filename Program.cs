@@ -22,13 +22,13 @@ while (pedidoAberto){
         string escolha = Console.ReadLine();
 
         if (escolha == "1"){
-            Console.WriteLine("Você adcionou uma pizza !");
+            Console.WriteLine("Você adcionou uma pizza!");
             totalPedido += 30;
         }else if (escolha == "2"){
-            Console.WriteLine("Você adicionou um hamburguer !");
+            Console.WriteLine("Você adicionou um hamburguer!");
             totalPedido += 15;
         }else if (escolha == "3"){
-            Console.WriteLine("Você adicionou um refrigerante !");
+            Console.WriteLine("Você adicionou um refrigerante!");
             totalPedido += 5;
         }else{
             Console.WriteLine("Escolha uma opção válida!!");
